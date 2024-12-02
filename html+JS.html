@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>HomePage</title>
+        <link rel="stylesheet" href="css.css">
+    </head>
+    <body>
+        <button onclick="cambiarecolore('#5cb8e09d')">Cambia Sfondo</button>
+        <header>
+            <h1 id="titolo">PiperParfume</h1>
+        </header>
+        <main>
+            <table>
+                    <tr>
+                        <td>Prodotti</td>
+                        <td>Immagine</td>
+                        <td>Descrizione</td>
+                        <td>Prezzo</td>
+                    </tr>
+                    <tr>
+                        <td>Profumo Valentino</td>
+                        <td><img src="Profumo 1.jpeg" alt="" class="Immagini"></td>
+                        <td>
+                            <p>Il profumo adatto alla tua lei/il tuo lui</p>
+                            <p><a href="https://www.douglas.it/it/p/1069032304?trac=DO_IT.01.01_Shopping.P_Shopping.Bing.650331020.1258942147596431.012698.Online.PM&msclkid=213dd0992f8f15519bf2b7d323f601ef">Profumo Valentino</a></p>
+                            <p><textarea name="Testo 1" class="Commento">Aggiungi una recensione al prodotto</textarea></p>
+                        </td>
+                        <td>20.95€</td>
+                    </tr>
+                    <tr>
+                        <td>Profumo Giorgio</td>
+                        <td><img src="Profumo 2.jpeg" alt="" class="Immagini"></td>
+                        <td>
+                            <p>Il profumo da tutti i giorni</p>
+                            <p><a href="https://www.acquadellelba.com/it/prodotti/cat/592-profumatore-dambiente-notte-destate-500-ml-acqua-dellelba.html?msclkid=ebe01ffd880112565f6078b78478d55f&utm_source=bing&utm_medium=cpc&utm_campaign=ADE%20Shopping%20Intelligente&utm_term=2334194466915089&utm_content=Ad%20group%20%231">Profumo Giorgio</a></p>
+                            <p><textarea name="Testo 2" class="Commento">Aggiungi una recensione al prodotto</textarea></p>
+                        </td>
+                        <td>17.99€</td>
+                    </tr>
+                    <tr>
+                        <td>Profumo Antonio</td>
+                        <td><img src="Profumo 3.jpeg" alt="" class="Immagini"></td>
+                        <td>
+                            <p>Il miglior profumo per i tuoi appuntamenti romantici</p>
+                            <p><a href="https://www.acquadellelba.com/it/prodotti/0-59/135-profumatore-dambiente-profumi-del-monte-capanne-500-ml.html?msclkid=bd63d51ed5991bc7207db254d9e0f3fb&utm_source=bing&utm_medium=cpc&utm_campaign=ADE%20Shopping%20Intelligente&utm_term=2334194466915089&utm_content=Ad%20group%20%231">Profumo Antonio</a></p>
+                            <p><textarea name="Testo 3" class="Commento">Aggiungi una recensione al prodotto</textarea></p>
+                        </td>
+                        <td>45.00€</td>
+                    </tr>
+                    <tr>
+                        <td>Profumo Laura</td>
+                        <td><img src="Profumo 4.jpeg" alt="" class="Immagini"></td>
+                        <td>
+                            <p>Il profumo che ti aiuta a profumare di pulito</p>
+                            <p><a href="https://www.douglas.it/it/p/3000037970?trac=DO_IT.01.01_Shopping.P_Shopping.Bing.650331020.1258942147596431.544728.Online.PM&msclkid=7c8542318e1b13d6c209257b82628cf3">Profumo Laura</a></p>
+                            <p><textarea name="Testo 4" class="Commento">Aggiungi una recensione al prodotto</textarea></p>
+                        </td>
+                        <td>23.90€</td>
+                    </tr>
+                    <tr>
+                        <td>Profumo Massimo</td>
+                        <td><img src="Profumo 5.jpeg" alt="" class="Immagini"></td>
+                        <td>
+                            <p>Il profumo adatto a chi é forte e deciso</p>
+                            <p><a href="https://www.douglas.it/it/p/3001005867?trac=DO_IT.01.01_Shopping.P_Shopping.Bing.650331020.1258942147596431.818762.Online.PM&msclkid=f98bc767834813de5afea02d8f319c95">Profumo Massimo</a></p>
+                            <p><textarea name="Testo 5" class="Commento">Aggiungi una recensione al prodotto</textarea></p>
+                        </td>
+                        <td>15.40€</td>
+                    </tr>
+            </table>
+        </main>
+        <footer>
+            <h3>PiperParfume</h3>
+            <p id="Indirizzo">Via della Fontanina 2, Bologna</p>
+        </footer>
+        <script>
+        /* function NUOVO(NuovoTitoloDellaPagina) { 
+            let titolo = document.querySelector("h1"); 
+            titolo.innerHTML = NuovoTitoloDellaPagina; 
+            console.log (NuovoTitoloDellaPagina)
+        }*/
+        function cambiarecolore(Colore){
+            document.body.style.backgroundColor = Colore
+        }
+        /*function NUOVO(NuovoIndirizzo){
+            let Ind = document.getElementById('Indirizzo');
+            let New = "Un indirizzo fittizio";
+            IndirizzoElement.textContent = New; 
+        }*/
+        </script>
+    </body>
+</html>
